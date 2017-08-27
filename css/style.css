@@ -1,3 +1,18 @@
 body {
     background: #ebebeb;
 }
+
+.cool {
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    background: green;
+    -webkit-transition: background 1s;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+}
+
+.cool.red {
+    visibility: visible;
+    background: red;
+}
